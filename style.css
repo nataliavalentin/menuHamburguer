@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    background-image: url(./images/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+
+header{
+    background-color: #fcb8b9;
+    height: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12pt;
+
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1px;
+}
+
+span{
+    display: flex;
+    width: 50px;
+    height: 5px;
+    color: white;
+    background-color: white;
+    flex-direction: column;
+    border-radius: 50px;
+}
+
+.hamburguer{
+    display: flex;
+    height: 40px;
+    flex-direction: column;
+
+}
+
+header nav div img{
+    height: 47px;
+}
+
+section{
+    height: 400px;
+    display: flex;
+}
+
+span{
+    cursor: pointer;
+}
+
+.divSection{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 100vw;
+    justify-content: space-between;
+    background-color: #fcb8b9;
+    transform: translateY(-50vh);
+}
+
+.abrirMenu{
+    transform: translateY(0);
+  }
+
+section a:hover{
+    text-decoration: underline;
+}
+
+@media (min-width: 940px){
+    .hamburguer{   
+     display: none;
+}
+.botoes{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+}
+
+@media (max-width: 940px){
+    .linkNav{   
+    display: none;
+}
+
+body{
+    margin: 0;
+    background-image: url(./images/fundo3.jpg);
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    }
+}
