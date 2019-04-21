@@ -8,6 +8,7 @@ body{
 header{
     background-color: #fcb8b9;
     height: 50px;
+    
 }
 
 a{
@@ -15,7 +16,6 @@ a{
     color: white;
     font-family: 'Oswald', sans-serif;
     font-size: 12pt;
-
 }
 
 nav a:hover{
@@ -43,7 +43,7 @@ span{
     display: flex;
     height: 40px;
     flex-direction: column;
-
+    cursor: pointer;
 }
 
 header nav div img{
@@ -55,18 +55,15 @@ section{
     display: flex;
 }
 
-span{
-    cursor: pointer;
-}
-
 .divSection{
     display: flex;
     flex-direction: column;
     height: 200px;
     width: 100vw;
     justify-content: space-between;
-    background-color: #fcb8b9;
-    transform: translateY(-50vh);
+    background-color: #fcb8b9b2;
+    transform: translateY(-60vh);
+    transition: 2s;
 }
 
 .abrirMenu{
@@ -86,6 +83,16 @@ section a:hover{
     justify-content: space-between;
     padding-right: 10px;
     padding-left: 10px;
+}
+
+.divSection{
+    display: none;
+    flex-direction: column;
+    height: 200px;
+    width: 100vw;
+    justify-content: space-between;
+    background-color: #fcb8b9;
+    
 }
 
 }
