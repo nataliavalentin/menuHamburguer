@@ -68,7 +68,7 @@ section{
 
 .abrirMenu{
     transform: translateY(0);
-  }
+}
 
 section a:hover{
     text-decoration: underline;
@@ -78,6 +78,7 @@ section a:hover{
     .hamburguer{   
      display: none;
 }
+
 .botoes{
     display: flex;
     justify-content: space-between;
@@ -93,7 +94,7 @@ section a:hover{
     justify-content: space-between;
     background-color: #fcb8b9;
     
-}
+    }
 
 }
 
